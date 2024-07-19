@@ -1,0 +1,20 @@
+# Ignore parquet files
+*.parquet
+
+# Ignore CSV files
+*.csv
+
+# Ignore Excel files
+*.xlsx
+
+#Ignore pyc
+*.pyc
+
+#Ignore .idea folder
+.idea/
+
+#Ignore docs folder
+docs/build/
+
+# Ignore notebooks
+notebooks/
