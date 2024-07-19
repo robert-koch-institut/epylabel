@@ -1,0 +1,111 @@
+{
+	"metadata": {
+		"title": "Epylabel: Ensemble-labeling of infectious diseases time series",
+		"description": "<p>This repository contains the code for the manuscript <em>Ensemble-labeling of infectious diseases time series to evaluate early warning systems</em> with which you can reproduce the manuscript's results and figures.</p>\n",
+		"creators":  [
+			{
+				"person_or_org": {
+					"family_name": "Hicketier",
+					"given_name": "Andreas",
+					"identifiers": [{"identifier": "0009-0000-5882-852X", "scheme": "orcid"}],
+					"type": "personal",
+					"affiliations": [{"name": "Robert Koch Institute", "id": "01k5qnb77"}]
+				}				
+			},
+						{
+				"person_or_org": {
+					"family_name": "Bach",
+					"given_name": "Moritz",
+					"identifiers": [{"identifier": "0009-0003-3062-0585", "scheme": "orcid"}],
+					"type": "personal",
+					"affiliations": [{"name": "Robert Koch Institute", "id": "01k5qnb77"}]
+				}				
+			},
+			{
+				"person_or_org": {
+					"family_name": "Oedi",
+					"given_name": "Philip",
+					"identifiers": [{"identifier": "0009-0001-7112-505X", "scheme": "orcid"}],
+					"type": "personal",
+					"affiliations": [{"name": "Robert Koch Institute", "id": "01k5qnb77"}]
+				}				
+			},
+			{
+				"person_or_org": {
+					"family_name": "Ullrich",
+					"given_name": "Alexander",
+					"identifiers": [{"identifier": "0000-0002-4894-6124", "scheme": "orcid"}],
+					"type": "personal",
+					"affiliations": [{"name": "Robert Koch Institute", "id": "01k5qnb77"}]
+				}				
+			},
+			{
+				"person_or_org": {
+					"family_name": "Abbood",
+					"given_name": "Auss",
+					"identifiers": [{"identifier": "0000-0002-4428-168X", "scheme": "orcid"}],
+					"type": "personal",
+					"affiliations": [{"name": "Robert Koch Institute", "id": "01k5qnb77"}]
+				}				
+			}			
+		],
+		"publication_date": "2024-07-19",
+		"version": "2024-07-19",
+		"languages": [{"id": "eng"}],
+		"publisher": "Zenodo",
+		"related_identifiers": [
+			{
+				"identifier": "https://github.com/robert-koch-institut/epylabel",
+				"relation_type": { "id": "issupplementto" },
+				"resource_type": { "id": "software"}
+			},
+			{
+				"identifier": "https://github.com/robert-koch-institut/epylabel/blob/main/Readme.md",
+				"relation_type": { "id": "isdocumentedby" },
+				"resource_type": { "id": "publication-datapaper"}
+			},
+			{
+				"identifier": "https://github.com/robert-koch-institut/epylabel/blob/main/[Documentation]_epylabel.pdf",
+				"relation_type": { "id": "isdocumentedby" },
+				"resource_type": { "id": "publication-datapaper"}
+			}
+		],
+		"resource_type": {"id": "software"},
+		"rights": [{"id": "mit"}],
+		"subjects": [
+			{"subject": "COVID-19"},
+			{"subject": "SARS-CoV-2"},
+			{"subject": "Inzidenz"},
+			{"subject": "Incidence"},
+			{"subject": "7-Tage-Inzidenz"},
+			{"subject": "Infections"},
+			{"subject": "Infektion"},
+			{"subject": "Python"},
+			{"subject": "R"},
+			{"subject": "Gesundheitsberichterstattung"},
+			{"subject": "Public health surveillance"},
+			{"subject": "Epidemiologie"},
+			{"subject": "Epidemiology"},
+			{"subject": "Germany"},
+			{"subject": "Open Data"},
+			{"subject": "Open Source"},
+			{"subject": "RKI"}
+		]
+	},
+	"custom_fields": {
+		"code:codeRepository": "https://github.com/robert-koch-institut/epylabel",
+		"code:developmentStatus": {"id": "active"},
+		"code:programmingLanguage": [
+			{"id": "python"},
+			{"id": "r"}
+		],
+		"legacy:communities": ["robertkochinstitut"] 
+	},
+	"access": {
+		"record": "public",
+		"files": "public"
+	},
+	"files": {
+		"enabled": true
+	}
+}

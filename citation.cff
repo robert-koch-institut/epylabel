@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+type: software
+title: 'Epylabel: Ensemble-labeling of infectious diseases time series'
+abstract: >-
+  This repository contains the code for the manuscript Ensemble-labeling of
+  infectious diseases time series to evaluate early warning systems with which
+  you can reproduce the manuscript's results and figures.
+date-released: '2024-07-19'
+keywords:
+  - COVID-19
+  - SARS-CoV-2
+  - Inzidenz
+  - Incidence
+  - 7-Tage-Inzidenz
+  - Infections
+  - Infektion
+  - Gesundheitsberichterstattung
+  - Public health surveillance
+  - Epidemiologie
+  - Epidemiology
+  - Germany
+  - Open Data
+  - Open Source
+  - Python
+  - R
+  - RKI
+message: Cite me!
+url: https://robert-koch-institut.github.io/epylabel
+license: MIT
+doi: 10.5281/zenodo.12665040
+version: '2024-07-19T10:00:00+01:00'
+authors:
+  - family-names: Hicketier
+    given-names: Andreas
+    affiliation: Robert Koch-Institut
+    orcid: 0009-0000-5882-852X
+    email: hicketiera@rki.de
+  - family-names: Bach
+    given-names: Moritz
+    affiliation: Robert Koch-Institut
+    orcid: 0009-0003-3062-0585
+  - family-names: Oedi
+    given-names: Philip
+    affiliation: Robert Koch-Institut
+    orcid: 0009-0001-7112-505X
+  - family-names: Ullrich
+    given-names: Alexander
+    affiliation: Robert Koch-Institut
+    orcid: 0000-0002-4894-6124
+  - family-names: Abbood
+    given-names: Auss
+    affiliation: Robert Koch-Institut
+    orcid: 0000-0002-4428-168X

@@ -1,0 +1,83 @@
+{
+	"title": "Epylabel: Ensemble-labeling of infectious diseases time series",
+	"description": "<p>This repository contains the code for the manuscript <em>Ensemble-labeling of infectious diseases time series to evaluate early warning systems</em> with which you can reproduce the manuscript's results and figures.</p>\n",
+	"creators": [
+		{
+			"name": "Hicketier, Andreas",
+			"affiliation": "Robert Koch Institute",
+			"orcid": "0009-0000-5882-852X"
+		},
+		{
+			"name": "Bach, Moritz",
+			"affiliation": "Robert Koch Institute",
+			"orcid": "0009-0003-3062-0585"
+		},
+		{
+			"name": "Oedi, Philip",
+			"affiliation": "Robert Koch Institute",
+			"orcid": "0009-0001-7112-505X"
+		},
+		{
+			"name": "Ullrich, Alexander",
+			"affiliation": "Robert Koch Institute",
+			"orcid": "0000-0002-4894-6124"
+		},
+		{
+			"name": "Abbood, Auss",
+			"affiliation": "Robert Koch Institute",
+			"orcid": "0000-0002-4428-168X"
+		}
+	],
+	"keywords": [
+		"COVID-19",
+		"SARS-CoV-2",
+		"Inzidenz",
+		"Incidence",
+		"7-Tage-Inzidenz",
+		"Infections",
+		"Infektion",
+		"Epidemiologie",
+		"Epidemiology",
+		"Gesundheitsberichterstattung",
+		"Public health surveillance",
+		"Python",
+		"R",
+		"Germany",
+		"Open Data",
+		"Open Source",
+		"RKI"
+	],
+	"publication_date": "2024-07-19",
+	"version": "2024-07-19",
+	"upload_type": "software",
+	"access_right": "open",
+	"license": "MIT",
+	"language": "eng",
+	"communities": [
+		{
+			"identifier": "robertkochinstitut"
+		}
+	],
+	"related_identifiers": [
+		{
+			"relation": "isSupplementTo",
+			"identifier": "https://github.com/robert-koch-institut/epylabel",
+			"resource_type": "dataset"
+		},
+		{
+			"relation": "isDocumentedBy",
+			"identifier": "https://github.com/robert-koch-institut/epylabel/blob/main/Readme.md",
+			"resource_type": "publication-report"
+		},
+		{
+			"relation": "isDocumentedBy",
+			"identifier": "https://github.com/robert-koch-institut/epylabel/blob/main/[Documentation]_epylabel.pdf",
+			"resource_type": "publication-report"
+		},
+		{
+			"relation": "isDescribedBy",
+			"identifier": "https://robert-koch-institut.github.io/epylabel",
+			"resource_type": "other"
+		}
+	]
+}
