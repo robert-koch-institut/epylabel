@@ -2,7 +2,7 @@ name: OpenData Workfow for FAIR Data
 on:
   push:
     tags:
-      - '[0-9][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]'
+      - '[0-9].[0-9]'
   #workflow_dispatch:
 
 jobs:

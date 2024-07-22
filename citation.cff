@@ -28,7 +28,7 @@ message: Cite me!
 url: https://robert-koch-institut.github.io/epylabel
 license: MIT
 doi: 10.5281/zenodo.12665040
-version: '2024-07-19T10:00:00+01:00'
+version: '1.0'
 authors:
   - family-names: Hicketier
     given-names: Andreas
