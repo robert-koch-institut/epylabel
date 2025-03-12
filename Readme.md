@@ -15,8 +15,9 @@
 <br>
 
 **Cite**  
-  
-Hicketier A, Bach M, Oedi P, Ullrich A, and Abbood A (**2024**): *Epylabel: Ensemble-labeling of infectious diseases time series*, Zenodo. DOI: [10.5281/zenodo.12665040](https://doi.org/10.5281/zenodo.12665040)  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Hicketier, A., Bach, M., Oedi, P., Ullrich, A., & Abbood, A. (2024). Epylabel: Ensemble-labeling of infectious diseases time series. Zenodo. [https://doi.org/10.5281/zenodo.12665040](https://doi.org/10.5281/zenodo.12665040)
+<!-- CITATION_END -->
 
 ---  
 
