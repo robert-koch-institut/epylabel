@@ -9,8 +9,8 @@
 
 [**Andreas Hicketier**](https://orcid.org/0009-0000-5882-852X)<sup>1</sup>, [**Moritz Bach**](https://orcid.org/0009-0003-3062-0585)<sup>1</sup>, [**Philip Oedi**](https://orcid.org/0009-0001-7112-505X)<sup>1</sup>, [**Alexander Ullrich**](https://orcid.org/0000-0002-4894-6124)<sup>1</sup>, and [**Auss Abbood**](https://orcid.org/0000-0002-4428-168X)<sup>2</sup>  
 
-&emsp;<sup>1</sup> [Robert Koch Institute | Unit 32](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/InfDiseaseEpidem/Div32/div32_node.html)  
-&emsp;<sup>2</sup> [Robert Koch Institute | Unit ZIG 1](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/ZIG/INIG/INIG_node.html)  
+&emsp;<sup>1</sup> [Robert Koch Institute | Unit 32](https://www.rki.de/EN/Institute/Organisation/Departments/Department-3/Unit-32/unit-32-surveillance-and-demis-focal-point-public-health-service-node.html)  
+&emsp;<sup>2</sup> [Robert Koch Institute | Unit ZIG 1](https://www.rki.de/EN/Institute/Organisation/Departments/ZIG/ZIG1/zig1-information-centre-for-international-health-protection-inig-node.html)  
 
 <br>
 
@@ -29,8 +29,8 @@ This code was developed at the Robert Koch Institute as part of the project *Dat
 
 ### Administrative and organizational information
 
-This work was conducted by staff from [Unit 32 | Surveillance](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/InfDiseaseEpidem/Div32/div32_node.html) with technical supervision by Alexander Ullrich and Auss Abbood from [ZIG 1 | Information Centre for International Health Protection (INIG)](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/ZIG/INIG/INIG_node.html).
-The publication of the code as well as the quality management of the metadata is done by department [MF 4 | Domain Specific Data and Research Data Management](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF4/mf4_node.html). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at <OpenData@rki.de>.
+This work was conducted by staff from [Unit 32 | Surveillance](https://www.rki.de/EN/Institute/Organisation/Departments/Department-3/Unit-32/unit-32-surveillance-and-demis-focal-point-public-health-service-node.html) with technical supervision by Alexander Ullrich and Auss Abbood from [ZIG 1 | Information Centre for International Health Protection (INIG)](https://www.rki.de/EN/Institute/Organisation/Departments/ZIG/ZIG1/zig1-information-centre-for-international-health-protection-inig-node.html).
+The publication of the code as well as the quality management of the metadata is done by department [MF 4 | Domain Specific Data and Research Data Management](https://www.rki.de/EN/Institute/Organisation/Departments/MFI/MF4/mf4-domain-specific-data-and-research-data-management-node.html). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at <OpenData@rki.de>.
 
 ### Motivation
 
