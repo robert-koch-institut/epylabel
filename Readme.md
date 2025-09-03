@@ -2,21 +2,52 @@
   <img src="https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland/assets/RKI_Logo.png" style="width: auto; height: 60px;">
 </p>
 
+<!-- HEADER_START: {"lang": "en"} -->
+
+
+Documentation  
 # Epylabel: Ensemble-labeling of infectious diseases time series
 
-<br>
-<br>
+<br> 
+<br> 
+<br> 
 
-[**Andreas Hicketier**](https://orcid.org/0009-0000-5882-852X)<sup>1</sup>, [**Moritz Bach**](https://orcid.org/0009-0003-3062-0585)<sup>1</sup>, [**Philip Oedi**](https://orcid.org/0009-0001-7112-505X)<sup>1</sup>, [**Alexander Ullrich**](https://orcid.org/0000-0002-4894-6124)<sup>1</sup>, and [**Auss Abbood**](https://orcid.org/0000-0002-4428-168X)<sup>2</sup>  
+[**Andreas Hicketier**](https://orcid.org/0009-0000-5882-852X)&sup1;, [**Moritz Bach**](https://orcid.org/0009-0003-3062-0585)&sup1;, [**Philip Oedi**](https://orcid.org/0009-0001-7112-505X)&sup1;, [**Alexander Ullrich**](https://orcid.org/0000-0002-4894-6124)&sup1;, & [**Auss Abbood**](https://orcid.org/0000-0002-4428-168X)&sup2;
 
-&emsp;<sup>1</sup> [Robert Koch Institute | Unit 32](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/InfDiseaseEpidem/Div32/div32_node.html)  
-&emsp;<sup>2</sup> [Robert Koch Institute | Unit ZIG 1](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/ZIG/INIG/INIG_node.html)  
+<br> 
 
-<br>
+
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Unit 32](https://www.rki.de/fg32-en)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de/) | [ZIG 1](https://www.rki.de/zig1-en)
+
+<br> 
 
 **Cite**  
-  
-Hicketier A, Bach M, Oedi P, Ullrich A, and Abbood A (**2024**): *Epylabel: Ensemble-labeling of infectious diseases time series*, Zenodo. DOI: [10.5281/zenodo.12665040](https://doi.org/10.5281/zenodo.12665040)  
+Hicketier, A., Bach, M., Oedi, P., Ullrich, A., & Abbood, A. (2024). Epylabel: Ensemble-labeling of infectious diseases time series. Zenodo. [https://doi.org/10.5281/zenodo.12665040](https://doi.org/10.5281/zenodo.12665040)
+
+
+<br>
+
+**Abstract**    
+This repository contains the code for the manuscript "Ensemble-labeling of Infectious Diseases Time Series to Evaluate Early Warning Systems" (Epylabel), with which the manuscript's results and figures can be reproduced. Developed at the Robert Koch Institute within the DAKI-FWS project, this Python/R-based tool combines several individual labeling techniques through a majority-voting ensemble to detect diverse outbreak patterns across varying spatial resolutions. The resulting labels were used to benchmark machine learning models and compare them with traditional outbreak detection methods.
+
+<br>
+
+**Table of Content**
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Project Information](#project-information)
+  - [Installation](#installation)
+  - [Running the Code](#running-the-code)
+  - [Code](#code)
+  - [Data](#data)
+  - [Collaborate](#collaborate)
+  - [Publication platforms](#publication-platforms)
+  - [License](#license)
+<!-- TOC_END -->
+
+<br>
+<!-- HEADER_END -->
 
 ---  
 
@@ -28,8 +59,8 @@ This code was developed at the Robert Koch Institute as part of the project *Dat
 
 ### Administrative and organizational information
 
-This work was conducted by staff from [Unit 32 | Surveillance](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/InfDiseaseEpidem/Div32/div32_node.html) with technical supervision by Alexander Ullrich and Auss Abbood from [ZIG 1 | Information Centre for International Health Protection (INIG)](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/ZIG/INIG/INIG_node.html).
-The publication of the code as well as the quality management of the metadata is done by department [MF 4 | Domain Specific Data and Research Data Management](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF4/mf4_node.html). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at <OpenData@rki.de>.
+This work was conducted by staff from [Unit 32 | Surveillance](https://www.rki.de/fg32-en) with technical supervision by Alexander Ullrich and Auss Abbood from [ZIG 1 | Information Centre for International Health Protection (INIG)](https://www.rki.de/zig1-en).
+The publication of the code as well as the quality management of the metadata is done by department [MF 4 | Domain Specific Data and Research Data Management](https://www.rki.de/mf4-en). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at <OpenData@rki.de>.
 
 ### Motivation
 
@@ -157,30 +188,24 @@ After the transformation, the data has the following structure:
 
 Data is downloaded as a comma-separated .csv file. The character encoding is UTF-8. Values are separated by ",".
 
-## Metadata
-
-To increase findability, the provided repository is described with metadata. The metadata is distributed to the relevant platforms via GitHub Actions.
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/epylabel/blob/main/metadata/zenodo.json). Documentation of the individual metadata variables can be found at <https://developers.zenodo.org/representation>.
-
-> [metadata/zenodo.json](https://github.com/robert-koch-institut/epylabel/blob/main/metadata/zenodo.json)
-
 ## Collaborate
 
 If you want to participate in our project, feel free to fork this repo and send us pull requests. To make sure everything is working please use pre-commit. It will run a few tests and lints before a commit can be made. To install pre-commit, run
 
 ``pre-commit install``
 
-## Guidelines for Reuse of the Code
+<!-- FOOTER_START: {"lang": "en"} -->
 
-Open source code from the RKI is available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/) and [OpenCoDE](https://gitlab.opencode.de):
+## Publication platforms
 
-- <https://zenodo.org/communities/robertkochinstitut>
-- <https://github.com/robert-koch-institut>
-- <https://gitlab.opencode.de/robert-koch-institut>
+This software publication is available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/) and [OpenCoDE](https://gitlab.opencode.de):  
 
-### License
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut
 
-The "Epylabel: Ensemble-labeling of infectious diseases time series" code is licensed under the [MIT License](https://mit-license.org/).  
 
-The code provided in the repository is freely available, with the condition of attributing the Robert Koch Institute as the source, for anyone to process and modify, create derivatives of the dataset and use them for commercial and non-commercial purposes.  
-Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/epylabel/blob/main/LICENSE) file of the dataset.
+## License
+
+**Epylabel: Ensemble-labeling of infectious diseases time series** is free and open-source software, published under the terms of the [MIT license](https://opensource.org/licenses/MIT).
+<!-- FOOTER_END -->
