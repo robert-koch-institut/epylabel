@@ -6,6 +6,7 @@
 
 
 Documentation  
+
 # Epylabel: Ensemble-labeling of infectious diseases time series
 
 <br> 
@@ -24,7 +25,9 @@ Documentation
 <br> 
 
 **Cite**  
+<!-- CITATION_START: {"citation_style": "apa"} -->
 Hicketier, A., Bach, M., Oedi, P., Ullrich, A., & Abbood, A. (2024). Epylabel: Ensemble-labeling of infectious diseases time series. Zenodo. [https://doi.org/10.5281/zenodo.12665040](https://doi.org/10.5281/zenodo.12665040)
+<!-- CITATION_END -->
 
 
 <br>
@@ -34,19 +37,21 @@ This repository contains the code for the manuscript "Ensemble-labeling of Infec
 
 <br>
 
-**Table of Content**
+**Table of Content**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Project Information](#project-information)
-  - [Installation](#installation)
-  - [Running the Code](#running-the-code)
-  - [Code](#code)
-  - [Data](#data)
-  - [Collaborate](#collaborate)
-  - [Publication platforms](#publication-platforms)
-  - [License](#license)
+  - [Project Information](#project-information)  
+  - [Installation](#installation)  
+  - [Running the Code](#running-the-code)  
+  - [Code](#code)  
+  - [Data](#data)  
+  - [Collaborate](#collaborate)  
+  - [Publication platforms](#publication-platforms)  
+  - [License](#license)  
 <!-- TOC_END -->
 
 <br>
+
 <!-- HEADER_END -->
 
 ---  
@@ -60,7 +65,7 @@ This code was developed at the Robert Koch Institute as part of the project *Dat
 ### Administrative and organizational information
 
 This work was conducted by staff from [Unit 32 | Surveillance](https://www.rki.de/fg32-en) with technical supervision by Alexander Ullrich and Auss Abbood from [ZIG 1 | Information Centre for International Health Protection (INIG)](https://www.rki.de/zig1-en).
-The publication of the code as well as the quality management of the metadata is done by department [MF 4 | Domain Specific Data and Research Data Management](https://www.rki.de/mf4-en). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at <OpenData@rki.de>.
+The publication of the code as well as the quality management of the metadata is done by department [MF 4 | Domain Specific Data and Research Data Management](https://www.rki.de/mf4-en). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at [OpenData@rki.de](mailto:OpenData@rki.de).
 
 ### Motivation
 
@@ -110,6 +115,7 @@ If another ensemble voting mechanism is desired, a new `Ensemble` class can be i
 Below, you can find a shortened and commented version of `paper_labels.py` to illustrate how generating labels with our ensemble approach works.
 
 ```python
+
 import pandas as pd
 
 from epylabel.labeler import (Bcp,Changerate,Ensemble,Shapelet,WaveFinder)
@@ -162,7 +168,7 @@ The code in this repository depends on reported COVID-19 cases in Germany. The m
 
 There are three datasets that will be downloaded to build timeseries of newly reported cases. New cases are in the CSV's column `Faelle_neu`. Region identifiers which are named `Bundesland_id` for federal countries and `Landkreis_id` for counties, are renamed to `location` by the script. The reporting date `Meldedatum` is renamed to `target` and the case numbers to `value`. Without a regional stratification, i.e., timeseries for Germany only, the column `location` gets the value 0. Age stratification of the data is ignored.
 
-The repository is using the latest data form the RKI "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" dataset provided on Github:
+The repository is using the latest data from the RKI "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" dataset provided on Github:
 
 > <https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland>
 
@@ -171,22 +177,22 @@ All versions of the currently daily updated data, are also published on Zenodo.o
 > Robert Koch-Institut (**2024**): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. DOI: [10.5281/zenodo.7129007](https://zenodo.org/doi/10.5281/zenodo.7129007)
 
 | Description                                              | URL                                                                                                                                                     |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| COVID-19 cases in Germany per county        | <https://raw.githubusercontent.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/main/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv>    |
-| COVID-19 cases in Germany per federal state | <https://raw.githubusercontent.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/main/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv> |
-| COVID-19 cases in Germany without startification                  | <https://raw.githubusercontent.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/main/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv>   |
+| :-------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| COVID-19 cases in Germany per county        | [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://raw.githubusercontent.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/main/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv)    |
+| COVID-19 cases in Germany per federal state | [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](https://raw.githubusercontent.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/main/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv) |
+| COVID-19 cases in Germany without startification                  | [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](https://raw.githubusercontent.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/main/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv)   |
 
 After the transformation, the data has the following structure:
 
 | Column   | Datatype | Description                                                                                                                       |
-| - | --------------------- |--------------------------------------------------- |
+| :- | :--------------------- |--------------------------------------------------- |
 | value    | integer | Number of reported COVID-19 cases                                                                                       |
 | target   | string | Reporting date (yyyy-mm-dd)                                                                                                        |
 | location | string |The five-digit community identification code for counties, two-digit code for federal countries, and a 0 for the whole of Germany |
 
 ### Formatting
 
-Data is downloaded as a comma-separated .csv file. The character encoding is UTF-8. Values are separated by ",".
+Data is downloaded as a comma-separated .csv file. The character encoding is UTF-8. Values are separated by `,`.
 
 ## Collaborate
 
@@ -200,10 +206,9 @@ If you want to participate in our project, feel free to fork this repo and send 
 
 This software publication is available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/) and [OpenCoDE](https://gitlab.opencode.de):  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut
-
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)
 
 ## License
 
