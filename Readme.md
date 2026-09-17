@@ -64,7 +64,7 @@ This code was developed at the Robert Koch Institute as part of the project *Dat
 
 ### Administrative and organizational information
 
-This work was conducted by staff from [Unit 32 | Surveillance](https://www.rki.de/fg32-en) with technical supervision by Alexander Ullrich and Auss Abbood from [ZIG 1 | Information Centre for International Health Protection (INIG)](https://www.rki.de/zig1-en).
+This work was conducted by staff from [Unit 32 | Surveillance and Electronic Repor­ting and Infor­ma­tion Sys­tem (DEMIS) | Focal Point for the Public Health Service](https://www.rki.de/fg32-en) with technical supervision by Alexander Ullrich and Auss Abbood from [ZIG 1 | Information Centre for International Health Protection (INIG)](https://www.rki.de/zig1-en).
 The publication of the code as well as the quality management of the metadata is done by department [MF 4 | Domain Specific Data and Research Data Management](https://www.rki.de/mf4-en). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at [OpenData@rki.de](mailto:OpenData@rki.de).
 
 ### Motivation
